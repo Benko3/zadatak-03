@@ -1,0 +1,37 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Upisite vrijednost z:");
+		int z = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Upisite vrijednost x:");
+		int x = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Upisite vrijednost y:");
+		int y = Convert.ToInt32(Console.ReadLine());
+		
+		if(z > 0 && x > 0 && y > 0){
+		}
+		int a = z*z;
+		int b = x*x;
+		int c = y*y;
+		
+			 if (a = b + c){
+				
+			   Console.WriteLine("Trokut je pravokutan");
+			   }
+		else if (b = a + c){
+				
+			   Console.WriteLine("Trokut je pravokutan");
+			   }
+		else if (c = a + b){
+				
+			   Console.WriteLine("Trokut je pravokutan");
+			   }
+			   else{
+				   Console.WriteLine("Trokut nije pravokutan");
+			   }
+				
+	}
+}
